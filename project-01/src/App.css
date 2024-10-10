@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+.user-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+.user-box h1 {
+    font-size: 30px;
+    padding: 20px;
+}
+.user-box ul {
+    width: 100%;
+}
+.user-box ul li {
+    display: flex;
+}
+.user-box ul li + li {
+    margin-top: 10px;
+}
+.user-box ul li input {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.user-box ul + button {
+    margin-top: 30px;
+}
+ul {
+    list-style: none;
+}
